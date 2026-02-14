@@ -55,6 +55,7 @@ The method handles the rest: planning, building in verifiable chunks, proof, wor
 | [`SEED-Method.md`](SEED-Method.md) | The complete SEED Method playbook (v3.5) — this is what you copy into your repo |
 | [`SEED-Method-Cookbook.md`](SEED-Method-Cookbook.md) | Practical patterns for adapting the method to real-world situations |
 | [`CHANGELOG.md`](CHANGELOG.md) | Version history and cumulative changes |
+| [`LICENSE`](LICENSE) | CC BY 4.0 |
 
 ## How it works
 

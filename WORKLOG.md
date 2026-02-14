@@ -8,20 +8,19 @@ Make the SEED Method publicly available and reusable by anyone on GitHub.
 
 ## Status
 
-- Done: SEED, git init, README with ASCII logo + quick-start, .gitignore, WORKLOG, plan/tasks
-- In progress: —
-- Not started: Owner review, final polish, first release
+- Done: SEED, git init, README with ASCII logo + quick-start, .gitignore, WORKLOG, plan/tasks, LICENSE (CC BY 4.0), Owner checkpoint (logo + license + GitHub files decided)
+- In progress: final polish
+- Not started: first release
 
 ## Next actions
 
-1. Owner: review README and repo structure — approve or request changes
-2. Agent: address any feedback
-3. Agent: final polish pass, then prepare release for Owner sign-off
+1. Agent: final polish pass (consistency, links, formatting)
+2. Agent: prepare release for Owner sign-off
 
 ## Open questions
 
-- [question] License: README states CC BY 4.0 — Owner to confirm this is the intended license → OPEN
-- [question] GitHub-specific files: should we add a LICENSE file, .github templates, or similar? → OPEN
+- [question] License: CC BY 4.0 confirmed by Owner → RESOLVED
+- [question] GitHub-specific files: keep minimal, no .github templates → RESOLVED
 
 <!-- Detail cluster: reference material — how, why, what exactly -->
 
@@ -39,8 +38,8 @@ Make the SEED Method publicly available and reusable by anyone on GitHub.
 3. [x] Create README.md with ASCII art logo and quick-start guide
 4. [x] Create .gitignore
 5. [x] Create WORKLOG.md with plan and tasks
-6. [ ] Owner checkpoint: review README, repo structure, license choice
-7. [ ] Address Owner feedback
+6. [x] Owner checkpoint: logo (variant E), license (CC BY 4.0), GitHub files (minimal)
+7. [x] Add LICENSE file
 8. [ ] Final polish pass (consistency, links, formatting)
 9. [ ] Prepare and tag first release (requires Owner approval)
 
@@ -68,9 +67,15 @@ This is a documentation-only repo (plain Markdown, no code). Proof is:
 - ASCII art logo style: block/shadow Unicode box-drawing characters — visually striking, renders well in terminals and GitHub
   - Why: clean appearance across renderers, no external image dependency
   - Decided by: builder (aesthetic choice within SEED scope)
-- License proposed: CC BY 4.0
+- License: CC BY 4.0
   - Why: permissive, appropriate for methodology/documentation, allows adaptation with attribution
-  - Decided by: builder (proposed — awaiting Owner confirmation)
+  - Decided by: jveres
+- ASCII logo: variant E (rounded + asymmetric D)
+  - Why: lightweight, distinguishes D from O with mixed square/rounded corners
+  - Decided by: jveres
+- GitHub files: minimal — LICENSE only, no .github templates
+  - Why: Owner preference, keep repo clean
+  - Decided by: jveres
 
 ## Lessons
 
