@@ -87,9 +87,9 @@ This is a documentation-only repo (plain Markdown, no code). Proof is:
 
 ## Working set
 
-- Files touched: SEED.md, README.md, WORKLOG.md, .gitignore, AGENTS.md
+- Files touched: SEED.md, README.md, WORKLOG.md, .gitignore, AGENTS.md, LICENSE
 - Branch: main
-- Commit: (initial commit pending)
+- Commit: bd8f3bd (readme: add gradient block ASCII logo)
 
 ---
 
