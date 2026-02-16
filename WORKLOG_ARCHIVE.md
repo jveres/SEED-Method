@@ -4,7 +4,8 @@
 
 | Release | Date       | Record                                                           |
 | ------- | ---------- | ---------------------------------------------------------------- |
-| v3.5    | 2026-02-14 | [docs/releases/release-v3.5.md](docs/releases/release-v3.5.md)  |
+| v3.5.1  | 2026-02-16 | [docs/releases/release-v3.5.1.md](docs/releases/release-v3.5.1.md) |
+| v3.5    | 2026-02-14 | [docs/releases/release-v3.5.md](docs/releases/release-v3.5.md)     |
 
 ---
 
@@ -15,6 +16,70 @@
 ## Archived practices
 
 (None yet.)
+
+---
+
+## Release v3.5.1 (2026-02-16)
+
+### 2026-02-16 — Publish as a skills.sh skill
+
+Housekeeping only. No behavioral changes.
+
+Changes:
+- Added a skills.sh-compatible skill at `skills/seed/`:
+  - `SKILL.md` (entrypoint)
+  - `PLAYBOOK.md` (full playbook text)
+- Added `scripts/build-skill.py` to generate the skill files from `dist/AGENTS.md`.
+- Added `scripts/check-skill.py` to verify the skill file is up to date.
+- Updated `README.md` with the install command and skill page link.
+
+Proof:
+- Manual: ran `./scripts/check-dist.py` and `./scripts/check-skill.py` (pass).
+
+### 2026-02-16 — Add dist build and clean naming
+
+Housekeeping only. No behavioral changes.
+
+Changes:
+- Added distribution builds for consumers:
+  - `dist/AGENTS.kernel.md` (token-efficient kernel)
+  - `dist/AGENTS.md` (single-file bundle)
+- Added `scripts/build-dist.py` to generate both dist variants from canonical
+  sources.
+- Added `scripts/check-dist.py` to verify both dist variants are up to date.
+- Removed legacy compact mirrors (`SEED-Method-compact*.md`).
+- Moved appendix skeletons into `docs/playbook/12-appendix-skeletons.md`.
+- Updated `README.md` Quick Start to recommend the kernel-first layout.
+
+Proof:
+- Manual: verified links resolve and files render correctly in Markdown.
+
+### 2026-02-15 — Modularize playbook into section files
+
+Housekeeping only. No behavioral changes.
+
+Changes:
+- Created `docs/playbook/` and moved §1–§11a content into section files.
+- Rewrote `SEED-Method.md` to keep the always-on kernel plus an index and
+  per-section stubs (to preserve existing anchors).
+- Updated `AGENTS.md` pointers to reflect the new canonical structure.
+
+Proof:
+- Manual: verified links resolve and files render correctly in Markdown.
+
+### 2026-02-15 — Compact always-loaded agent context
+
+Housekeeping only. No behavioral changes.
+
+Changes:
+- Replaced root `AGENTS.md` with a compact, agent-agnostic kernel and pointers
+  to canonical docs.
+- Added `CLAUDE.md` and `GEMINI.md` shims that import `AGENTS.md`.
+- Moved the playbook skeleton appendix out of `SEED-Method.md` into
+  `docs/playbook/12-appendix-skeletons.md` and linked to it.
+
+Proof:
+- Manual: verified links resolve and files render correctly in Markdown.
 
 ---
 

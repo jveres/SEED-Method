@@ -1,7 +1,7 @@
 # Release v3.5.1
 
 - **Date:** 2026-02-16
-- **Tag / commit:** v3.5.1 / (pending)
+- **Tag / commit:** v3.5.1 / 232450d
 
 ## Scope
 
