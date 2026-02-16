@@ -1,3 +1,19 @@
+## Summary of changes from v3.5
+
+| What | Change |
+| ---- | ------ |
+| Version | 3.5 → 3.5.1 |
+| Repo structure | Modularized playbook into `docs/playbook/` (12 section files). `SEED-Method.md` becomes kernel + index with stubs. |
+| Agent context | Root `AGENTS.md` rewritten as a compact, agent-agnostic kernel (~2.5 KB always-loaded). Added `CLAUDE.md` and `GEMINI.md` shims. |
+| Distribution builds | Added `dist/AGENTS.kernel.md` (token-efficient, ~7.5 KB) and `dist/AGENTS.md` (single-file bundle, ~56 KB) with generator + check scripts. |
+| skills.sh skill | Added `skills/seed/` (`SKILL.md` entrypoint + `PLAYBOOK.md`) with generator + check scripts. Install: `npx skills add jveres/The-SEED-Method@seed`. |
+| README | Expanded with Quick Start (kernel-first Option A + bundle Option B), per-agent setup (pi, Codex, Claude Code, Gemini, OpenCode), skill install, and "What's in this repo" table. |
+| Guardrails | Added dogfood guardrail: repo's own bootstrap must always reflect latest playbook. |
+| Decisions | Recorded: generated files committed (overrides guardrail 7) with freshness enforced by check scripts. |
+| Cookbook | Removed stray YAML frontmatter that could confuse skills CLI. |
+
+---
+
 ## Summary of changes from v3.4
 
 | What                   | Change                                                                                                                                                                                                                                                                                                                |

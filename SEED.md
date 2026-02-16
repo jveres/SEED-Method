@@ -28,6 +28,7 @@ Make the SEED Method publicly available and reusable by anyone on GitHub. Someon
 ## Guardrails
 
 - No release without Owner sign-off — every version bump of the SEED Method requires explicit Owner approval before tagging/publishing. [owner] 2026-02-14
+- Dogfood: this repo runs on the SEED Method it defines — the repo's own bootstrap artifacts (`AGENTS.md`, `CLAUDE.md`, `GEMINI.md`) and generated distribution files (`dist/`, `skills/`) must always reflect the current (latest) playbook. After any playbook change, verify that the repo's own agent instructions are consistent with the updated method. [owner] 2026-02-16
 
 ## Non-goals
 

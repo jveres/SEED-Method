@@ -1,11 +1,14 @@
+<!-- Generated file: dist/AGENTS.kernel.md. Source: SEED-Method.md + docs/playbook/*.md -->
+
 # The SEED Method
 
 **The SEED Method** is a development methodology for agent-driven projects.
 One human. Any number of agents. The method keeps it manageable.
 
-This playbook is typically stored as `AGENTS.md` in a consuming repo
-(repo root). In this source repo, the canonical text is split across
-`SEED-Method.md` (kernel + index) and `docs/playbook/` (sections + appendix).
+This playbook is stored as `AGENTS.md` in the repo root.
+
+This file is the **kernel** (token-efficient). Load the relevant section(s) from `docs/playbook/` on demand.
+If the modular files are not present, use the single-file bundle or install the SEED skill (`jveres/The-SEED-Method@seed`).
 
 This repo runs on the SEED Method, version: 3.5
 
@@ -107,132 +110,17 @@ If Vision or Constraints need to change after `SEED.md` is written:
 
 ## Full playbook sections (modular)
 
-Sections §1–§11a are stored in `docs/playbook/` to keep this file smaller
-for day-to-day reading and agent ingestion.
+Read only the section(s) you need for the current task.
 
-- §1: [docs/playbook/01-autonomy-contract.md](docs/playbook/01-autonomy-contract.md)
-- §2: [docs/playbook/02-bootstrap.md](docs/playbook/02-bootstrap.md)
-- §3: [docs/playbook/03-build.md](docs/playbook/03-build.md)
-- §4: [docs/playbook/04-prove.md](docs/playbook/04-prove.md)
-- §5–§5b: [docs/playbook/05-worklog.md](docs/playbook/05-worklog.md)
-- §6: [docs/playbook/06-adapt.md](docs/playbook/06-adapt.md)
-- §7: [docs/playbook/07-audit.md](docs/playbook/07-audit.md)
-- §8: [docs/playbook/08-seed-questions.md](docs/playbook/08-seed-questions.md)
-- §9: [docs/playbook/09-multi-agent.md](docs/playbook/09-multi-agent.md)
-- §10–§10a: [docs/playbook/10-release.md](docs/playbook/10-release.md)
-- §11–§11a: [docs/playbook/11-guardrails.md](docs/playbook/11-guardrails.md)
-- Appendix templates: [docs/playbook/12-appendix-skeletons.md](docs/playbook/12-appendix-skeletons.md)
-
----
-
-## 1) Autonomy contract (default)
-
-This section is stored in `docs/playbook/01-autonomy-contract.md`.
-
-See [docs/playbook/01-autonomy-contract.md](docs/playbook/01-autonomy-contract.md).
----
-
-## 2) Bootstrap phase (agents own it)
-
-This section is stored in `docs/playbook/02-bootstrap.md`.
-
-See [docs/playbook/02-bootstrap.md](docs/playbook/02-bootstrap.md).
----
-
-## 3) Build phase (full-speed execution)
-
-This section is stored in `docs/playbook/03-build.md`.
-
-See [docs/playbook/03-build.md](docs/playbook/03-build.md).
----
-
-## 4) Prove phase (oracles over opinions)
-
-This section is stored in `docs/playbook/04-prove.md`.
-
-See [docs/playbook/04-prove.md](docs/playbook/04-prove.md).
----
-
-## 5) Worklog phase (snapshot + log in one file; required)
-
-This section is stored in `docs/playbook/05-worklog.md`.
-
-See [docs/playbook/05-worklog.md](docs/playbook/05-worklog.md).
----
-
-## 5a) Housekeeping (idle time)
-
-This section is stored in `docs/playbook/05-worklog.md`.
-
-See [docs/playbook/05-worklog.md](docs/playbook/05-worklog.md).
----
-
-## 5b) Scratch docs (working documents)
-
-This section is stored in `docs/playbook/05-worklog.md`.
-
-See [docs/playbook/05-worklog.md](docs/playbook/05-worklog.md).
----
-
-## 6) Adapt phase (owner checkpoints)
-
-This section is stored in `docs/playbook/06-adapt.md`.
-
-See [docs/playbook/06-adapt.md](docs/playbook/06-adapt.md).
----
-
-## 7) Playbook audit (optional, trigger-based)
-
-This section is stored in `docs/playbook/07-audit.md`.
-
-See [docs/playbook/07-audit.md](docs/playbook/07-audit.md).
----
-
-## 8) Default question script (when requesting SEED)
-
-This section is stored in `docs/playbook/08-seed-questions.md`.
-
-See [docs/playbook/08-seed-questions.md](docs/playbook/08-seed-questions.md).
----
-
-## 9) Multi-agent coordination (parallel execution contract)
-
-This section is stored in `docs/playbook/09-multi-agent.md`.
-
-See [docs/playbook/09-multi-agent.md](docs/playbook/09-multi-agent.md).
----
-
-## 10) Definition of Release Done (DoRD)
-
-This section is stored in `docs/playbook/10-release.md`.
-
-See [docs/playbook/10-release.md](docs/playbook/10-release.md).
----
-
-## 10a) Post-release closeout (seal + reset)
-
-This section is stored in `docs/playbook/10-release.md`.
-
-See [docs/playbook/10-release.md](docs/playbook/10-release.md).
----
-
-## 11) Guardrails (enforced rules that evolve)
-
-This section is stored in `docs/playbook/11-guardrails.md`.
-
-See [docs/playbook/11-guardrails.md](docs/playbook/11-guardrails.md).
----
-
-## 11a) Practice promotion (best practices that evolve)
-
-This section is stored in `docs/playbook/11-guardrails.md`.
-
-See [docs/playbook/11-guardrails.md](docs/playbook/11-guardrails.md).
----
-
-# Appendix — Skeletons
-
-The skeleton templates are stored in `docs/playbook/12-appendix-skeletons.md`
-to keep `SEED-Method.md` smaller for day-to-day reading and agent ingestion.
-
-See [docs/playbook/12-appendix-skeletons.md](docs/playbook/12-appendix-skeletons.md).
+- §1: `docs/playbook/01-autonomy-contract.md`
+- §2: `docs/playbook/02-bootstrap.md`
+- §3: `docs/playbook/03-build.md`
+- §4: `docs/playbook/04-prove.md`
+- §5–§5b: `docs/playbook/05-worklog.md`
+- §6: `docs/playbook/06-adapt.md`
+- §7: `docs/playbook/07-audit.md`
+- §8: `docs/playbook/08-seed-questions.md`
+- §9: `docs/playbook/09-multi-agent.md`
+- §10–§10a: `docs/playbook/10-release.md`
+- §11–§11a: `docs/playbook/11-guardrails.md`
+- Appendix templates: `docs/playbook/12-appendix-skeletons.md`

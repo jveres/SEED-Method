@@ -1,12 +1,3 @@
----
-name: seed-method
-description: >
-  The SEED Method is a development methodology for agent-driven projects.
-  Use this skill when working on any project that follows SEED Method discipline —
-  it defines phases, artifacts, coordination, guardrails, and adaptation patterns
-  for single-owner, multi-agent delivery.
----
-
 # SEED Method Cookbook
 
 Practical patterns for adapting the SEED Method to real-world situations. This document is a **companion reference**, not part of the playbook itself. The playbook (`AGENTS.md`) defines the workflow. This cookbook shows how to apply it when the defaults don't quite fit.
